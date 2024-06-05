@@ -5,31 +5,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>flexbox</title>
-  <style>    
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .img {
+      width: 160px;
+      height: 240px;
+      margin: 5px;
+    }
+    figure {
+      margin: 0;
+    }
   </style>
 </head>
 <body>
-  <!--TODO 수정-->
   <div class="flex-container">
-    <!-- figure 태그는 html5에서 추가된 시맨틱 태그입니다. -->
-    <!-- 자세한 정보는 https://developer.mozilla.org/ko/docs/Web/HTML/Element/figure 에서 확인해주세요. -->
     <figure>
-      <img src="./images/1.jpg" alt="sample 1">
+      <img src="./images/1.jpg" alt="sample 1" class="img">
     </figure>
     <figure>
-      <img src="./images/2.jpg" alt="sample 2">
+      <img src="./images/2.jpg" alt="sample 2" class="img">
     </figure>
     <figure>
-      <img src="./images/3.jpg" alt="sample 3">
+      <img src="./images/3.jpg" alt="sample 3" class="img">
     </figure>
     <figure>
-      <img src="./images/4.jpg" alt="sample 4">
+      <img src="./images/4.jpg" alt="sample 4" class="img">
     </figure>
     <figure>
-      <img src="./images/5.jpg" alt="sample 5">
+      <img src="./images/5.jpg" alt="sample 5" class="img">
     </figure>
     <figure>
-      <img src="./images/6.jpg" alt="sample 6">
+      <img src="./images/6.jpg" alt="sample 6" class="img">
     </figure>
   </div>
 </body>
